@@ -33,8 +33,8 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## Homolog version
+# Homolog version
 
-Check out our [Homolog versionn](https://nextjs-baselayout.vercel.app) for more details.
+[Homolog versionn](https://nextjs-baselayout.vercel.app) for more details.
 
 
