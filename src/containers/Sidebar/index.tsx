@@ -11,9 +11,8 @@ const SideBar: React.FC = () => {
   useEffect(() => {
     dispatch(getSidebarItemsAction());
   }, []);
-
-  console.log(sidebar)
-  return (<TemplateSideBar items={sidebar} />);
+  
+  return (<TemplateSideBar items={sidebar || []} />);
 };
 
 export default SideBar;
