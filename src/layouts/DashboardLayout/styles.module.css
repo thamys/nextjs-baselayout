@@ -1,0 +1,15 @@
+.layout{
+    min-height: 100vh;
+}
+.siteLayout{
+    display: inline-block;
+    padding: 32px;
+    background-color: #fff;
+    background-image: url('/public/bg-dashboard.svg');
+    background-size: cover;
+}
+
+.footer{
+    background-color: #FFF;
+    text-align: center;
+}

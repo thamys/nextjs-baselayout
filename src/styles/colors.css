@@ -1,0 +1,60 @@
+:root {
+  /* Project Colors */
+  --neutral-1: #bfbfbf;
+  --neutral-8: #595959;
+  --dust-red-5: #ff4d4f;
+
+  /* Default */
+  --blue-dark: #22577a;
+  --blue-mid: #38a3a5;
+  --blue-light: #c7f9cc;
+  --blue-accent: #80ed99;
+
+  /* Hover */
+  --blue-dark-hover: #22577a;
+  --white: #ffffff;
+  --blue-mid-hover: #77a8f6;
+  --blue-accent-hover: #c5f4fb;
+  /*---------------------------------- */
+
+  /* Mono (Text, Labels, elements and non-clickable elements.) */
+
+  /* Default */
+  --mono-black: #030406;
+  --mono-dark: #292b3c;
+  --mono-mid: #686b75;
+  --mono-light: #b9bcbc;
+  --mono-pale: #ebebeb;
+
+  /* Hover */
+  --mono-black-hover: #292b3c;
+  --mono-dark-hover: #686b75;
+  --mono-mid-hover: #b9bcbc;
+  --mono-light-hover: #ebebeb;
+  --mono-white: #ffffff;
+  /*----------------------------------
+    
+    /* Status Component (Clickable status, when more information can be seen by clicking on the status within the tables.) */
+
+  /* Default */
+  --status-red: #ffcacd;
+  --status-orange: #fccca0;
+  --status-yellow: #fff490;
+  --status-green: #b0f0cd;
+
+  /* Hover */
+  --status-red-hover: #f48d8d;
+  --status-orange-hover: #f5a153;
+  --status-yellow-hover: #f9ce38;
+  --status-green-hover: #65ce9c;
+  /* ---------------------------------- */
+
+  /* Status Text (Non-clickable status, texts and icons used simply to lay out the situation in the table.) */
+
+  /* Default */
+  --irregular: #ff4d4f;
+  --regular: #0b8845;
+  /*---------------------------------- */
+
+  --border-radius-base: 16px;
+}

@@ -16,13 +16,18 @@
     "module": "esnext",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "suppressImplicitAnyIndexErrors": true,
+    "types": [
+      "node"
+    ],
+    "moduleResolution": "node"
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/pages/upload.jsx", "src/containers/ExcelLoader/template.jsx", "src/pages/upload.js"  ],
   "exclude": [
     "node_modules"
   ]

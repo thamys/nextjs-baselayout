@@ -1,0 +1,10 @@
+.layout{
+    display: inline-block;
+    padding: 32px;
+    background-color: #fff;
+}
+
+.footer{
+    background-color: #FFF;
+    text-align: center;
+}
