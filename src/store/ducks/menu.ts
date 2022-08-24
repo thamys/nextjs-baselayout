@@ -11,7 +11,7 @@ type InitialState = DefaultState & {
 export const INITIAL_STATE: InitialState = {
   status: "idle",
   error: null,
-  sidebar: null,
+  sidebar: [],
 };
 
 export const getSidebarItemsAction = createAsyncThunk<
