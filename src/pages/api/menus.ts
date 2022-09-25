@@ -1,7 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import { createRouter } from "next-connect";
 import { AxiosError } from "axios";
-import { API } from "../config";
+import { API } from "./config";
 
 const router = createRouter<NextApiRequest, NextApiResponse>();
 
