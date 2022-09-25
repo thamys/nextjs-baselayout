@@ -1,14 +1,7 @@
 import React from "react";
-import { Button, Checkbox, Form, Input, Row, Space } from "antd";
-import { useRouter } from "next/router";
+import { Button, Checkbox, Form, Input, Row } from "antd";
 
-const FormLoginTemplate = () => {
-  const router = useRouter();
-  const onFinish = (values) => {
-    console.log("Success:", values);
-    router.push("/dashboard");
-  };
-
+const FormLoginTemplate = ({ onLogin }) => {
   const onFinishFailed = (errorInfo) => {
     console.log("Failed:", errorInfo);
   };
@@ -16,7 +9,7 @@ const FormLoginTemplate = () => {
   return (
     <Form
       name="basic"
-      onFinish={onFinish}
+      onFinish={onLogin}
       onFinishFailed={onFinishFailed}
       autoComplete="off"
       layout="vertical"
