@@ -3,11 +3,12 @@ import Head from "next/head";
 import Router from "next/router";
 import NProgress from "nprogress";
 import { PersistGate } from "redux-persist/integration/react";
+import { ConfigProvider } from "antd";
 import { wrapper, useAppStore } from "../store";
 import "moment/locale/pt-br";
 
-import '../styles/globals.css';
-import 'antd/dist/antd.less';
+import "../styles/globals.css";
+import "antd/dist/antd.variable.min.css";
 
 Router.events.on("routeChangeStart", () => NProgress.start());
 Router.events.on("routeChangeComplete", () => NProgress.done());
@@ -24,7 +25,9 @@ const App = ({ Component, pageProps }) => {
         loading={null}
         persistor={"_persistor" in store && store["_persistor"]}
       >
-        <Component {...pageProps} />
+        <ConfigProvider>
+          <Component {...pageProps} />
+        </ConfigProvider>
       </PersistGate>
     </>
   );
