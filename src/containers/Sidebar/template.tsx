@@ -1,11 +1,14 @@
 import React, { useMemo, useState } from "react";
-import { Layout, Menu, MenuProps } from "antd";
+import { Menu, MenuProps } from "antd";
 import loadable from "@loadable/component";
-
-const { Sider } = Layout;
+import { SidebarStyled } from "./styled";
+import { RootState, useAppSelector } from "../../store";
 
 const TemplateSideBar = ({ items }) => {
   const [collapsed, setCollapsed] = useState(true);
+
+  const { user } = useAppSelector((state: RootState) => state.authReducer);
+
   type MenuItem = Required<MenuProps>["items"][number];
 
   const getItem = (
@@ -48,13 +51,14 @@ const TemplateSideBar = ({ items }) => {
   }, [items]);
 
   return (
-    <Sider
+    <SidebarStyled
+      backgroundColor={user.secondaryColor}
       collapsible
       collapsed={collapsed}
       onCollapse={(value) => setCollapsed(value)}
     >
       <Menu theme="dark" mode="inline" items={menuItens} />
-    </Sider>
+    </SidebarStyled>
   );
 };
 
