@@ -1,4 +1,4 @@
-import { MenuItemHover_types } from "../../types/menuItem";
+import { MenuItemHover_types } from "@interfaces/menuItem.typing";
 
 export const notifications: Array<MenuItemHover_types> = [
   {

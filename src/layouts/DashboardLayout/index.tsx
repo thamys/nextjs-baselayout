@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import { ConfigProvider, Layout } from "antd";
-import Sidebar from "../../containers/Sidebar";
-import Header from "../../containers/Header";
+import Sidebar from "@containers/Sidebar";
+import Header from "@containers/Header";
 import styles from "./styles.module.css";
 import Link from "next/link";
-import { RootState, useAppSelector } from "../../store/index";
+import { RootState, useAppSelector } from "@store/index";
 
 const { Footer, Content } = Layout;
 

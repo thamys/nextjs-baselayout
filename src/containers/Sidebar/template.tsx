@@ -2,7 +2,7 @@ import React, { useMemo, useState } from "react";
 import { Menu, MenuProps } from "antd";
 import loadable from "@loadable/component";
 import { SidebarStyled } from "./styled";
-import { RootState, useAppSelector } from "../../store";
+import { RootState, useAppSelector } from "@store/index";
 
 const TemplateSideBar = ({ items }) => {
   const [collapsed, setCollapsed] = useState(true);

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import { RootState, useAppDispatch, useAppSelector } from "../../store";
-import { getExamplesAction } from "../../store/ducks/example";
+import { RootState, useAppDispatch, useAppSelector } from "@store/index";
+import { getExamplesAction } from "@store/ducks/example";
 import ExamplesTableTemplate from "./template";
 
 const ExamplesTable: React.FC = () => {

@@ -1,8 +1,8 @@
 import React from "react";
 import { Layout, Input, Row, Col, Space } from "antd";
 import styles from "./styles.module.css";
-import DropNotifications from "../DropNotifications";
-import DropUserConfigs from "../DropUserConfigs";
+import DropNotifications from "@containers/DropNotifications";
+import DropUserConfigs from "@containers/DropUserConfigs";
 import Image from "next/image";
 
 const { Header } = Layout;
