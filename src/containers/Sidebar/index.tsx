@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import { RootState, useAppDispatch, useAppSelector } from "../../store";
-import { getSidebarItemsAction } from "../../store/ducks/menu";
+import { RootState, useAppDispatch, useAppSelector } from "@store/index";
+import { getSidebarItemsAction } from "@store/ducks/menu";
 import TemplateSideBar from "./template";
 
 const SideBar: React.FC = () => {

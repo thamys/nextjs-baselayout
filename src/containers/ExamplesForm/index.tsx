@@ -1,5 +1,5 @@
 import React from "react";
-import { useAppDispatch } from "../../store";
+import { useAppDispatch } from "@store/index";
 import ExamplesFormTemplate from "./template";
 
 const ExamplesForm: React.FC = () => {

@@ -1,6 +1,6 @@
 import React from "react";
-import DashboardContainer from "../containers/DashboardContainer";
-import DashboardLayout from "../layouts/DashboardLayout";
+import DashboardContainer from "@containers/DashboardContainer";
+import DashboardLayout from "@layouts/DashboardLayout";
 
 const DashboardPage = () => {
   return (

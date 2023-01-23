@@ -8,7 +8,7 @@ export interface MenuItem_types {
   icon: React.FC;
 }
 
-export interface MenuItemHover_types{
+export interface MenuItemHover_types {
   key: string;
   label: string;
   disable: boolean;

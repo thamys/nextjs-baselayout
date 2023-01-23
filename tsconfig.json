@@ -21,7 +21,20 @@
     "types": [
       "node"
     ],
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@containers/*": ["containers/*"],
+      "@interfaces/*": ["interfaces/*"],
+      "@layouts/*": ["layouts/*"],
+      "@pages/*": ["pages/*"],
+      "@providers/*": ["providers/*"],
+      "@services/*": ["services/*"],
+      "@store/*": ["store/*"],
+      "@styles/*": ["styles/*"],
+      "@utils/*": ["utils/*"],
+    },
   },
   "include": [
     "next-env.d.ts",

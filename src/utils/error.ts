@@ -1,4 +1,4 @@
-import { ApiError, RequestError } from '../types/api';
+import { ApiError, RequestError } from '@interfaces/api.typing';
 
 /**
  * Chose what to do with each API error

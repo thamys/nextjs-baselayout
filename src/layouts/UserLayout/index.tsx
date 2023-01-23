@@ -1,7 +1,7 @@
 import React from "react";
 import { Layout } from "antd";
-import IsSidebar from "../../containers/Sidebar";
-import IsHeader from "../../containers/Header";
+import IsSidebar from "@containers/Sidebar";
+import IsHeader from "@containers/Header";
 import styles from "./styles.module.css";
 import Link from "next/link";
 

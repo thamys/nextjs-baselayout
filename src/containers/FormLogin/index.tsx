@@ -1,6 +1,6 @@
 import React from "react";
-import { useAppDispatch } from "../../store";
-import { postLoginAction } from "../../store/ducks/auth";
+import { useAppDispatch } from "@store/index";
+import { postLoginAction } from "@store/ducks/auth";
 import FormLoginTemplate from "./template";
 import { useRouter } from "next/router";
 

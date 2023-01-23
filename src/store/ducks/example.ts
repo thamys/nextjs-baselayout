@@ -1,7 +1,7 @@
 import { createAsyncThunk, createReducer } from "@reduxjs/toolkit";
-import { API } from "../../api";
-import { handleApiError } from "../../utils/error";
-import { ApiError, DefaultState } from "../../types/store";
+import { API } from "@services/api";
+import { handleApiError } from "@utils/error";
+import { ApiError, DefaultState } from "@interfaces/store.typing";
 import { AxiosResponse } from "axios";
 
 type InitialState = DefaultState & {
